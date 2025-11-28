@@ -1,6 +1,8 @@
 # CiteKnight
 CiteKnight is a multi-agent system that transforms raw scholarly search results into structured, ranked, and publication-ready BibTeX files.
 
+![CiteKnight Thumbnail](CiteKnight.png)
+
 This is my final project for the Google 5-Day AI Agents Intensive course. 
 
 Through specialized agents for Google Scholar search, metadata processing, relevance ranking, and citation formatting, CiteKnight ensures accurate, non-hallucinated, standards-compliant academic references for your LaTeX templates.
