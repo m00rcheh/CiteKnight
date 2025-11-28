@@ -29,14 +29,17 @@ CiteKnight — your noble ally in academic quests.
 Transforming your literature review into clean, organized citations.
 
 
-** Example **
+### Example
+
+```python
+
 search_runner = InMemoryRunner(agent=search_agent)
 selection_runner = InMemoryRunner(agent=paper_selection_agent)
 bibtex_runner = InMemoryRunner(agent=bibtex_formatter_agent)
 
 user_query = "no strong loop hypothesis in brain networks"
 
-# In a notebook / async context:
+
 output_file = await run_full_pipeline(
     search_runner=search_runner,
     selection_runner=selection_runner,
@@ -47,6 +50,8 @@ output_file = await run_full_pipeline(
     output_path="no_strong_loop.bib",
 )
 
+
+# partial output here:
 ----------------------------------------
   1 | @article{NSL_Hadaeghi2025,
   2 |   title = {A computational perspective on the no-strong-loops principle in brain networks},
@@ -95,5 +100,6 @@ output_file = await run_full_pipeline(
  45 |   year = {2018},
  46 |   url = {https://www.tandfonline.com/doi/abs/10.31887/DCNS.2018.20.2/osporns},
  47 | }
+
 
 
