@@ -53,7 +53,6 @@ output_file = await run_full_pipeline(
     bibtex_runner=bibtex_runner,
     user_query=user_query,
     max_results=20,
-    max_papers=6,
     ranking_pref="similarity",   # or "recency", "citations"
     style="ieee, abbreviated journal names",
     output_path="no_strong_loop.bib",
