@@ -28,6 +28,13 @@ CiteKnight fulfills many of the advanced agent-engineering criteria from the cou
 CiteKnight — your noble ally in academic quests.
 Transforming your literature review into clean, organized citations.
 
+## Citation
+
+If you use this tool in your research, please cite the repository:
+
+> **Hadaeghi, Fatemeh. (2025). *CiteKnight*. https://github.com/m00rcheh/CiteKnight
+
+
 
 ### Example
 
