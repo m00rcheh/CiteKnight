@@ -32,7 +32,9 @@ Transforming your literature review into clean, organized citations.
 
 If you use this tool in your research, please cite the repository:
 
-> **Hadaeghi, Fatemeh. (2025). *CiteKnight*. https://github.com/m00rcheh/CiteKnight
+> Fatemeh Hadaeghi. CiteKnight: your noble ally in academic quests.. https://www.kaggle.com/competitions/agents-intensive-capstone-project/writeups/CiteKnight. 2025. Kaggle
+
+
 
 
 
